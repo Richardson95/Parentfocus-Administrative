@@ -389,7 +389,7 @@ table.tbl { width: 100%; border-collapse: collapse; min-width: 560px; }
   .sidebar.open ~ .sidebar-backdrop,
   .sidebar-backdrop.show { display: block; position: fixed; inset: 0; background: rgba(12,27,51,0.45); z-index: 55; }
   .grid-2 { grid-template-columns: 1fr; }
-  .topbar-search { display: none; }
+  .topbar > .topbar-search { display: none; }
 }
 @media (max-width: 560px) {
   .grid-stats { grid-template-columns: 1fr 1fr; }
